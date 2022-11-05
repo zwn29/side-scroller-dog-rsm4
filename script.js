@@ -5,7 +5,7 @@ window.addEventListener('load', () => {
   canvas.height = 720
   let enemies = []
   let score = 0
-//   let gameOver = false
+  let gameOver = false
 
   class InputHandler {
     constructor() {
