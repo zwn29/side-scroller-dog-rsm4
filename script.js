@@ -88,7 +88,7 @@ window.addEventListener('load', () => {
         const dy = enemy.y - this.y
         const distance = Math.sqrt(dx * dx + dy * dy)
         if (distance < enemy.width / 2 + this.width / 2) {
-          gameOver = true
+          gameOver = false
         }
       })
       //sprite animation
