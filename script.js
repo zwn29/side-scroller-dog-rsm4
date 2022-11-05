@@ -181,7 +181,7 @@ window.addEventListener('load', () => {
       this.markedForDeletion = false
     }
     draw(context) {
-      context.strokeStyle = 'blue'
+      context.strokeStyle = 'transparent'
       context.strokeRect(this.x, this.y, this.width, this.height)
       context.beginPath()
       context.arc(
